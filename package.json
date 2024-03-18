@@ -1,18 +1,19 @@
 {
-  "name": "window-split",
+  "name": "code-editor-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "primeicons": "^6.0.1",
+    "@uiw/react-split": "^5.9.3",
+    "bootstrap": "^5.3.3",
     "primereact": "^10.5.1",
     "react": "^18.2.0",
+    "react-code-blocks": "^0.1.6",
     "react-dom": "^18.2.0",
-    "react-resizable": "^3.0.5",
     "react-scripts": "5.0.1",
-    "react-tabs": "^6.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,0 +1,15 @@
+.file_group_container {
+  overflow: auto;
+  resize: both;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  margin-top: 8px;
+}
+
+.min_height {
+  min-height: 50;
+}
+.min_width {
+  min-width: 20;
+}

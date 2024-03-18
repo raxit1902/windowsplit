@@ -1,0 +1,26 @@
+.sidebar_container {
+  border-right: 1px #dde6ed solid;
+  height: 97vh;
+  padding: 5px;
+}
+.file {
+  border: 1px solid rgba(255, 255, 255, 0);
+  width: 8rem;
+  border-radius: 3px;
+  margin: 0px;
+  margin-top: 5px;
+  padding-inline: 7px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+}
+.file:hover {
+  border: 1px solid #03c988;
+  color: #03c988;
+  transition: 0.2s ease-in-out;
+}
+
+.active_file {
+  border: 1px solid #03c988;
+  color: #03c988;
+}

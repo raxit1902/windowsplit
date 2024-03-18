@@ -1,0 +1,52 @@
+.file_group {
+  padding-left: 1rem;
+}
+.file_group .group_border {
+  border: 2px solid #50727b;
+  border-radius: 10px;
+  padding: 0.3rem;
+}
+.group_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.group_nav .filename {
+  border-radius: 10px;
+  border-right: 2px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  padding: 5px;
+  margin-left: 5px;
+  resize: both;
+}
+.group_nav .filename:hover {
+  border-right: 2px solid #03c988;
+  border-bottom: 2px solid #03c988;
+  transition: 0.5s;
+}
+.group_nav .active_tab {
+  border-right: 2px solid #03c988;
+  border-bottom: 2px solid #03c988;
+  transition: 0.5s;
+}
+
+.group_nav .file_close {
+  cursor: pointer;
+}
+.split_tabs img{
+  cursor: pointer;
+}
+
+.file_content {
+  margin-top: 1rem;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
