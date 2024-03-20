@@ -25,7 +25,7 @@ const Tab = ({ title, isActive, onClick, onClose }) => {
   );
 };
 
-const Group = ({ addTabGroup, tabId, activeGroup, groupIndex }) => {
+const Group = ({ addTabGroup, tabId, activeGroup, groupIndex,groupCount }) => {
   const [tabs, setTabs] = useState([
     {
       id: tabId,
@@ -69,6 +69,7 @@ const Group = ({ addTabGroup, tabId, activeGroup, groupIndex }) => {
   };
 
   // console.log(activeTab);
+  
 
   return (
     <>
@@ -101,7 +102,7 @@ const Group = ({ addTabGroup, tabId, activeGroup, groupIndex }) => {
               src={splitHor}
               alt="splt_hor"
               onClick={() => {
-                addTabGroup(activeTab, "horizontal", groupIndex);
+                addTabGroup(activeTab, "vertical", groupIndex);
               }}
             />
             {"    "}
@@ -109,7 +110,7 @@ const Group = ({ addTabGroup, tabId, activeGroup, groupIndex }) => {
               src={splitVer}
               alt="splt_ver"
               onClick={() => {
-                addTabGroup(activeTab, "vertical", groupIndex);
+                addTabGroup(activeTab, "horizontal", groupIndex);
               }}
             />
           </div>

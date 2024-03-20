@@ -1,5 +1,7 @@
 .file_group {
   padding-left: 1rem;
+  background-color: #222831;
+  overflow: auto;
 }
 .file_group .group_border {
   border: 2px solid #50727b;
@@ -40,6 +42,7 @@
 .file_content {
   margin-top: 1rem;
   animation: fadeIn 0.5s ease forwards;
+  overflow: auto;
 }
 
 @keyframes fadeIn {
